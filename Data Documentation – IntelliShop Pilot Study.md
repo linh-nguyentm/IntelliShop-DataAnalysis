@@ -68,7 +68,7 @@ This file serves as the final dataset used for statistical analysis.
 ## 5. Data Analysis Code
 
 **File:**  
-`Group_1_Data_Analysis_Final.ipynb`
+`IntelliShop_DataAnalysis.ipynb`
 
 This Jupyter notebook contains:
 

@@ -4,6 +4,17 @@ This repository contains the data analysis materials for the IntelliShop pilot s
 
 It is separated from the Unity project repository in order to keep the analytical workflow organized and to avoid mixing experimental application files with statistical analysis files.
 
+## Related Repository
+
+| Repository | Role |
+|---|---|
+| [**IntelliShop**](https://github.com/linh-nguyentm/IntelliShop) | The Unity / Meta Quest 3 VR experiment that runs the discount-vs-points task and logs the trial-level behavioural data. |
+| **IntelliShop-DataAnalysis** (this repo) | Cleaning, statistics, and visualization of the merged survey + VR dataset produced by that experiment. |
+
+The VR system in `IntelliShop` writes per-session CSV files; those are cleaned,
+merged with the post-task survey, and analysed here (`merged_data.csv` →
+`IntelliShop_DataAnalysis.ipynb` / `analysis/insights_dashboard.py`).
+
 ## Repository Contents
 
 The repository includes:
